@@ -1,22 +1,15 @@
-const url = require('url')
-const express = require('express')
-const bodyParser = require('body-parser');
-const server = express()
+const express = require('express');
+const app = express();
 
-server.use(express.static('public'))
+app.get('/:id', function(req, res) {
+  res.send('hello ' + req.params.id);
+});
 
-function greets () {
-    var greet = ["Hei", "Hallo", "hei hei"];
-    var random = greet[Math.floor((Math.random()*greet.length))];
-    return random;
-}
+app.use(express.static("./public"));
 
-server.get('/random/:id', function (req, res) {
-  res.send(greets() +" "+ req.params.navn);
+app.listen(process.env.PORT || 8080, function () { // do something with the port
+  console.log('Star wars');
+});
 
-})
-
-server.listen(function () {
-  console.log(greets())
-  console.log('Nå var det tid for og jobbe gitt!')
-})
+console.log("for noe drit");
+// skjønner ingenting
