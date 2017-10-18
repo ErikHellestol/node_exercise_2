@@ -10,7 +10,7 @@
     "type": "git",
     "url": "node_exercise_2"
   },
-  "author": "Jørgen Bordal Andersen",
+  "author": "Erik Hellestol",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2"
