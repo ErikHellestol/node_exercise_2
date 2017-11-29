@@ -16,7 +16,7 @@ var access = function(req,res, next){
 }
 
 
-app.set('port', (process.env.PORT || 3000));
+app.set('port', (process.env.PORT || 5432));
 app.use(express.static('public'));
 app.use(bodyParser);
 app.use(access);
@@ -33,7 +33,7 @@ app.get('/', function (req, res) {
   res.send(staticApp);
 });
 
-let dbString = "postgres://qiypkwjnjgwadw:ddf8a7f06464234473af6e17bd765d589a1ec038db7b514abdee5cf720293646@ec2-54-75-225-143.eu-west-1.compute.amazonaws.com:5432/da5jtj9gun137e";
+let dbString = "postgres://ybyncykjxyctqo:02d96d972d10c154bf3524ee74dbefa3543ebec61049e3db4f7eae9114956db0@ec2-46-137-174-67.eu-west-1.compute.amazonaws.com:5432/d34eo2gvf0u1tf";
 
 
 
