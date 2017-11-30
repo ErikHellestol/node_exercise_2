@@ -1,35 +1,41 @@
-<div class="center" style="width: auto; margin-left: auto; margin-right: auto;">JustDoIt</div>
-<br>
-Medlemmer av gruppen
-<br>
-<br>
-* Keilin 
-[http://https://github.com/khelina92 KeilinsGitBruker]
-<br>
-* Julie
-[https://github.com/JulieMad91 JulieGitBruker]
-<br>
-* Marius 
-[https://github.com/Jakplayz MariusGitBruker]
-<br>
-Roadmap: [https://trello.com/b/JLkzyVEO/story-board] 
-<br>
-Projectboard: [https://trello.com/b/zbTcZBJE/prosess]
-<br>
-Vi ønsker å lage en optimalisert tilpasset todolist for Keilin som gir henne mulighet til å ha oversikt over sin hektiske hverdag 
-<br>
-Dette innebærer: 
-* Kalender 
-* Innlogging 
-* Checkliste 
-* Hendelsesmapper 
-* Gjentagende hendelser 
-* Mulighet for å dele hendelser/kalender 
-* Påmindelse på epost/sms 
-* Spotifytilgang / mulighet til å høre på musikk ect. 
-Uniqe sellingpoints: 
-* Avspilling av musikk i selve appen, som er koblet opp mot spotify
+# HvaSomHelst
 
-Link til heroku:
-<br>
-https://serverjustdoit.herokuapp.com/
+LINK TIL HEROKU-APP: https://hvasomhelst.herokuapp.com/
+
+Team Members:
+J�rgen Bordal Andersen
+https://github.com/Jorgba15
+
+Erik Hellest�l
+https://github.com/erikhellestol
+
+Saba Haile
+https://github.com/Saha13
+
+PG account:
+https://github.com/HvaSomHelst
+
+Roadmap: 
+https://hvasomhelst.storiesonboard.com/m/hvasomhelst
+
+Backlog/Project Board:
+https://trello.com/b/wPJceq2j/to-do-list-backlog
+(We as a group has 9 SP)
+
+Github Link:
+https://github.com/hvasomhelst/hvasomhelst
+
+Product Details:
+
+Description:
+A simple but effective task manager for all students.
+Easy to use but effective.
+
+Goals:
+To get a working product.
+Learn to work as a unit with github and trello.
+
+Unique Selling Points:
+Simplistic.
+User Friendly
+Self explanatory
